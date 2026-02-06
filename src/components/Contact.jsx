@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Twitter, Instagram, Linkedin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { FaYoutube, FaInstagram, FaTiktok, FaXTwitter, FaFacebookF } from 'react-icons/fa6';
 
 const Contact = () => {
     return (
@@ -36,9 +37,9 @@ const Contact = () => {
                                 <div className="contact-icon-box">
                                     <Mail size={18} />
                                 </div>
-                                <span>hello@zynovux.com</span>
+                                <span>zynovux@gmail.com</span>
                             </div>
-                            <div className="contact-item">
+                            {/* <div className="contact-item">
                                 <div className="contact-icon-box">
                                     <Phone size={18} />
                                 </div>
@@ -49,7 +50,7 @@ const Contact = () => {
                                     <MapPin size={18} />
                                 </div>
                                 <span>123 Digital Ave, Tech City</span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -88,9 +89,11 @@ const Contact = () => {
                 <div className="footer-bottom">
                     <p>© 2026 Zynovux Digital. All rights reserved.</p>
                     <div className="social-links">
-                        <a href="#" className="social-link"><Twitter size={20} /></a>
-                        <a href="#" className="social-link"><Instagram size={20} /></a>
-                        <a href="#" className="social-link"><Linkedin size={20} /></a>
+                        <a href="https://youtube.com/@zynovuxdigital" target="_blank" rel="noopener noreferrer" className="social-link"><FaYoutube size={20} /></a>
+                        <a href="https://www.instagram.com/zynovuxdigital" target="_blank" rel="noopener noreferrer" className="social-link"><FaInstagram size={20} /></a>
+                        <a href="https://www.tiktok.com/@zynovuxdigital" target="_blank" rel="noopener noreferrer" className="social-link"><FaTiktok size={20} /></a>
+                        <a href="https://x.com/zynovuxdigital" target="_blank" rel="noopener noreferrer" className="social-link"><FaXTwitter size={20} /></a>
+                        <a href="https://www.facebook.com/zynovuxdigital/" target="_blank" rel="noopener noreferrer" className="social-link"><FaFacebookF size={20} /></a>
                     </div>
                 </div>
             </div>
