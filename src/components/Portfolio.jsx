@@ -6,19 +6,19 @@ const projects = [
     {
         title: 'E-Commerce Redesign',
         category: 'Web Development',
-        image: '/web/project1.png',
+        image: './project1.png',
         description: 'A complete overhaul of a fashion retailer\'s online store.'
     },
     {
         title: 'Fintech Dashboard',
         category: 'UI/UX Design',
-        image: '/web/project2.png',
+        image: './project2.png',
         description: 'Intuitive dashboard design for a financial tracking application.'
     },
     {
         title: 'Travel App Branding',
         category: 'Brand Identity',
-        image: '/web/project3.png',
+        image: './project3.png',
         description: 'Modern identity system for a global travel startup.'
     }
 ];
